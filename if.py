@@ -49,3 +49,29 @@ if fin_de_semana:
     print("si")
 elif not fin_de_semana:
     print("no")
+    
+numero=5
+if numero:
+    print("hay un numero")
+    
+numero = 0
+if numero:
+    print("no hay numero")
+    
+nombre = "hola mundo"
+
+if nombre:
+    print("hay nombre")
+    
+print("condiciones ternaria")
+
+"""
+    es una forma concisa de un if-else en una linea de codigo
+    [codigo si cumple la condicion] if [condicion] else [codigo si no cumple]
+
+"""
+
+edad = 18
+
+mensaje = "es mayor de edad" if edad>=18 else "es menor"
+print(mensaje)
