@@ -8,7 +8,9 @@ sirven para almacenar datos relacionados
 
 persona = {
     "nombre": "eldaniell01",
-    "edad": 27
+    "edad": 27,
+    "direccion": "centro dos",
+    "numero": 2415
 }
 
 #para acceder a los valores
@@ -47,3 +49,6 @@ print(persona.values())
 
 #obtener claves y valores
 print(persona.items())
+
+for key, value in persona.items():
+    print(f"{key}: {value}")
