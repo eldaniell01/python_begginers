@@ -93,3 +93,15 @@ pattern = "python"
 busqueda = re.findall(pattern, text, re.IGNORECASE)
 
 print(busqueda)
+
+
+#reemplazar el texto
+#sub() reemplaza todas las coincidencias de un patron en un texto
+
+texto = "hola mundo, hola de nuevo"
+
+pattern = "hola"
+replacement = "adios"
+
+new_text = re.sub(pattern, replacement, texto, re.IGNORECASE)
+print(new_text)
