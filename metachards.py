@@ -108,3 +108,9 @@ pattern = r"\bcasa\b"
 
 found = re.findall(pattern, text)
 print(found)
+
+# | coincidir con una opcion u otra
+frutas = "platano, manzana, aguacate, palta, pera"
+pattern = r"palta|aguacate"
+found = re.findall(pattern, frutas)
+print(found)
